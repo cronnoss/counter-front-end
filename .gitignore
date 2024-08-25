@@ -24,3 +24,5 @@ dist-ssr
 *.sw?
 
 commands.txt
+
+package-lock.json
