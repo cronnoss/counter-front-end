@@ -21,7 +21,7 @@ function App() {
         <div>
             <TonConnectButton/>
 
-            <div className="container">
+            <div className="data-container">
                 <div>
                     <h3>Contract Data:</h3>
                     <b>Our contract Address:</b>
@@ -53,6 +53,8 @@ function App() {
                         <div>{counter_value ?? "Loading..."}</div>
                     </>
                 </div>
+            </div>
+            <div className="data-container">
                 <div>
                     <h3>Contract actions: </h3>
                     {connected ? (

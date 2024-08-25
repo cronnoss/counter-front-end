@@ -34,11 +34,16 @@
     }
 }
 
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    gap: 40px;
-    text-align: start;
+.data-container {
+    border: 1px solid #494949;
+    padding: 15px;
+    border-radius: 5px;
+    background-color: rgb(243, 244, 245);
+    margin: 15px 0px;
+}
+
+.data-container:first-child {
+    padding-bottom: 0px;
 }
 
 .read-the-docs {
